@@ -27,11 +27,15 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
 ### `npm run sass:watch`
 
 Watches the the `src/assets/styles/scss` folder for changes and immediately compiles them into the `src/assets/styles/css` folder on save.
+
+### `npm run sass:build`
+
+Builds the `src/assets/styles/scss` folders to `src/assets/styles/css` (one time). 
+
+### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
