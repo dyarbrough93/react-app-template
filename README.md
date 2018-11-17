@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a template for a react app using bootstrap 4 and node-sass, bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and stripped of unnecessary files.
 
 ## Available Scripts
 
@@ -28,6 +28,10 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
+
+### `npm run sass:watch`
+
+Watches the the `src/assets/styles/scss` folder for changes and immediately compiles them into the `src/assets/styles/css` folder on save.
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
