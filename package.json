@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "node-sass": "^4.10.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
@@ -11,7 +12,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sass:watch": "node-sass -w src/assets/styles/scss -o src/assets/styles/css",
+    "sass:build": "node-sass src/assets/styles/scss -o src/assets/styles/css --source-map true"
   },
   "eslintConfig": {
     "extends": "react-app"
